@@ -2,42 +2,36 @@ import {
 	FiGithub,
 	FiTwitter,
 	FiLinkedin,
-	FiGlobe,
-	FiYoutube,
+	FiMessageCircle,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
 	{
 		id: 1,
-		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		icon: <FiGithub />,
+		url: 'https://github.com/dosnash/',
 	},
 	{
 		id: 2,
-		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		icon: <FiTwitter />,
+		url: 'https://x.com/designcoul/',
 	},
 	{
 		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		icon: <FiLinkedin />,
+		url: 'https://www.linkedin.com/in/emmanuel-ovansa-823288125/',
 	},
 	{
 		id: 4,
-		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
-	},
-	{
-		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
+		icon: <FiMessageCircle/>,
+		url: 'https:/wa.me/+2349023523644/',
 	},
 ];
 
 function AppFooter() {
 	return (
-		<div className="container mx-auto">
+		<div className="container mx-auto" id="contact-me">
 			<div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
 				{/* Footer social links */}
 				<div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">

@@ -3,10 +3,10 @@ import { v4 as uuidv4 } from 'uuid';
 export const aboutMeData = [
 	{
 		id: uuidv4(),
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'Hello, am Emmanuel, passionate about problem-solving, developing quality UI, security best practices, and creating high-performing, visually appealing websites',
 	},
 	{
 		id: uuidv4(),
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: "Seeking a challenging and learning position to extract meaning from, interpret various types of data utilizing the up-to-date technologies and resources. Demonstrated ability to learn quickly and work well as part of a team or independently as needed, with effective communication.",
 	},
 ];

@@ -6,6 +6,7 @@ function ContactForm() {
 		<div className="w-full lg:w-1/2">
 			<div className="leading-loose">
 				<form
+					netlify
 					onSubmit={(e) => {
 						e.preventDefault();
 					}}
