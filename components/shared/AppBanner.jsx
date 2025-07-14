@@ -71,6 +71,8 @@ function AppBanner() {
 			>
 				<Image
 					layout="responsive"
+					width={100}
+					height={80}
 					src={
 						activeTheme === 'dark'
 							? '/images/developer.svg'
